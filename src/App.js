@@ -111,7 +111,7 @@ class App extends Component {
           }
           this.displayFaceBox(this.calculateFaceLocation(result));
     })
-      .catch(error => console.log('error', error));
+      .catch(error => console.error('error', error));
   };
 
   onRouteChange = (route) => {
